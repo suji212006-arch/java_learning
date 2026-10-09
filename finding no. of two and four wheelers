@@ -1,0 +1,17 @@
+ //accenture tech que
+
+import java.util.Scanner;
+public class sample{
+    public static void main(String[]args){
+            Scanner cs = new Scanner(System.in);
+            int V,W,TW,FW;
+            System.out.println("Enter no. of wheels:");
+            W=cs.nextInt();
+            System.out.println("Enter no. of vehicles:");
+            V=cs.nextInt();
+            FW = ((W-2*V)/2);
+            TW=V-FW;
+            System.out.println("No. of two wheelers:"+TW);
+            System.out.println("No. of four wheelers:"+FW); 
+    }
+}

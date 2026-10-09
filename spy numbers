@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int n= sc.nextInt();
+    int pro=1;
+    int sum=0;
+    int dig;
+    while (n>0){
+        dig=n%10;
+        sum+=dig;
+        pro*=dig;
+        n/=10;
+    }
+if (sum==pro)
+    System.out.println("Spy number");
+else
+    System.out.println("Not Spy number");
+        }
+}

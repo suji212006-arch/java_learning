@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[]args){
+            int C,F;
+            Scanner cs = new Scanner(System.in);
+            System.out.println("Enter in celcius:");
+            C=cs.nextInt();
+            F=(C*9/5)+32;
+            System.out.println("Fahrenheit : "+F);
+    }
+}

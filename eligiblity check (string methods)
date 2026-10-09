@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class sample{
+    public static void main(String[]args){
+            Scanner cs = new Scanner(System.in);
+            int age;
+            String name, gender;
+            System.out.println("Name:");
+            name=cs.nextLine();
+            System.out.println("Age");
+            age=cs.nextInt();
+            System.out.println("Gender:");
+            gender=cs.next();
+            if(age>=18 && gender.equalsIgnoreCase("male")){
+            System.out.println(name+" is eligible.");
+            }
+            else{
+            System.out.println(name+"is not eligible"); 
+            }
+    }
+}
+     
