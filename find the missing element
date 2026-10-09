@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{
+  public static void main(String[]args){
+   int len;
+    int num[]={1,2,4,5,6,7};
+    len=7;
+    int ans = len*(len+1)/2;
+    int sum=0;
+    for(int i:num){
+      sum+=i;
+    }
+  System.out.println(ans-sum);
+  }
+}//find the missing element
